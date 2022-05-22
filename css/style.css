@@ -16,8 +16,8 @@ a {
   text-decoration: none;
   color: inherit;
 }
-p{
-   margin: 0;
+p {
+  margin: 0;
 }
 body {
   font-family: "Inter", sans-serif;
@@ -217,8 +217,19 @@ body {
   padding-right: 25px;
 }
 .characteristics__text {
-   flex-basis: 285px;
+  flex-basis: 285px;
 }
 .characteristics__img {
   align-self: center;
+}
+/* --------------- slider ------------------------ */
+.slider {
+  margin-bottom: 50px;
+}
+.slider__items .slick-dots{
+   top: 0;
+   left: 0;
+}
+.slider__item {
+   padding-left: 50px;
 }
